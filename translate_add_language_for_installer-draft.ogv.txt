@@ -1,0 +1,12 @@
+This is a quick&dirty draft, but usable.
+
+Watch first half to see how to create new language for the from-sources-installer.
+- copy existing po file e.g. en.po
+- mkdir the proper dir for /ua/ based on /en/. Maybe copy there the .mo file too (it will be overwritten next)
+
+Watch from around half - how to translate UA.
+- call ./m lui   (or ./menu and find this option there) to do all translations for installer
+- or just edit the proper .po file, and then only call ./m lc to recompile language
+- start installer with language to test
+
+
